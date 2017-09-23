@@ -42,12 +42,54 @@ complete <- function(directory,id){
     
   }
   
-  id_num <- id_num[-1]
-  length <- length[-1]
+  id <- id_num[-1]
+  nobs <- length[-1]
   
-  output <- data.frame(id_num, length)
+  output <- data.frame(id, nobs)
   
   return(output)
   
   
 }
+
+corr <- function(directory, threshold){
+  correl <- 0
+  
+  id <- 1:332
+  directory <- paste(getwd(), directory,sep= "/")
+  id_file <- sprintf("%03d", id)
+  
+  j <- 1
+  k <- 0
+  for(i in id){
+    dir <- paste(id_file[j], "csv", sep=".")
+    dir <- paste(directory, dir, sep= "/")
+    all <- read.csv2(dir, header = TRUE, sep= ",")
+    filtered <- complete.cases(all)
+    good <- all[filtered,]
+    
+    sulfate <- good$sulfate
+    nitrate <- good$nitrate
+    
+    length <- nrow(good)
+    
+    if (length > threshold){
+      
+      numeric_good_sulfate <- as.numeric(levels(sulfate))[sulfate]
+      numeric_good_nitrate <- as.numeric(levels(nitrate))[nitrate]
+      correl_temp <- cor(numeric_good_sulfate, numeric_good_nitrate)
+      correl <- c(correl, correl_temp)
+      k <- k + 1
+    }
+    j <- j + 1
+    
+  }
+  if (k == 0){
+    return(0)
+  }
+ 
+  return(correl[-1])
+    
+  }
+  
+
