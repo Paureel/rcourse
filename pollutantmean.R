@@ -1,10 +1,12 @@
 pollutantmean <- function(directory, pollutant, id) {
   mean_temp <- 0
-  setwd(directory)
+  directory <- paste(getwd(), directory,sep= "/")
   id_file <- sprintf("%03d", id)
   j <- 1
   for(i in id){
     dir <- paste(id_file[j], "csv", sep=".")
+    dir <- paste(directory, dir, sep= "/")
+    print(directory)
     print(dir)
     all <- read.csv2(dir, header = TRUE, sep= ",")
     filtered <- all[[pollutant]]
