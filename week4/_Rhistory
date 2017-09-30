@@ -1,0 +1,427 @@
+library(ggplot2)
+library(plotly)
+library(readr)
+akt1 = read_tsv("aktgraph2.txt")
+mps1 = read_tsv("mps1graph2.txt")
+plotly::plot_ly(data = akt1, type = "scatter", color = ~type, x = ~`log10(iv)`, y = ~`log(ic50_is)` )
+plotly::plot_ly(data = mps1, type = "scatter", color = ~type, x = ~`log10(iv)`, y = ~`log(ic50_is)` )
+install.packages("ggplot2")
+install.packages("plotly")
+install.packages("readr")
+library(ggplot2)
+library(plotly)
+library(readr)
+akt1 = read_tsv("aktgraph2.txt")
+mps1 = read_tsv("mps1graph2.txt")
+plotly::plot_ly(data = akt1, type = "scatter", color = ~type, x = ~`log10(iv)`, y = ~`log(ic50_is)` )
+plotly::plot_ly(data = mps1, type = "scatter", color = ~type, x = ~`log10(iv)`, y = ~`log(ic50_is)` )
+library(ggplot2)
+library(plotly)
+library(readr)
+akt1 = read_tsv("aktgraph2.txt")
+mps1 = read_tsv("mps1graph2.txt")
+plotly::plot_ly(data = akt1, type = "scatter", color = ~type, x = ~`log10(iv)`, y = ~`log(ic50_is)` )
+plotly::plot_ly(data = mps1, type = "scatter", color = ~type, x = ~`log10(iv)`, y = ~`log(ic50_is)` )
+library(ggplot2)
+library(plotly)
+library(readr)
+akt1 = read_tsv("aktgraph2.txt")
+mps1 = read_tsv("mps1graph2.txt")
+plotly::plot_ly(data = akt1, type = "scatter", color = ~type, x = ~`log10(iv)`, y = ~`log(ic50_is)` )
+plotly::plot_ly(data = mps1, type = "scatter", color = ~type, x = ~`log10(iv)`, y = ~`log(ic50_is)` )
+library(ggplot2)
+library(plotly)
+library(readr)
+akt1 = read_tsv("aktgraph2.txt")
+mps1 = read_tsv("mps1graph2.txt")
+plotly::plot_ly(data = akt1, type = "scatter", color = ~type, x = ~`log10(iv)`, y = ~`log(ic50_is)` )
+plotly::plot_ly(data = mps1, type = "scatter", color = ~type, x = ~`log10(iv)`, y = ~`log(ic50_is)` )
+library(ggplot2)
+library(plotly)
+library(readr)
+akt1 = read_tsv("aktgraph2.txt")
+mps1 = read_tsv("mps1graph2.txt")
+plotly::plot_ly(data = akt1, type = "scatter", color = ~type, x = ~`log10(iv)`, y = ~`log(ic50_is)` )
+plotly::plot_ly(data = mps1, type = "scatter", color = ~type, x = ~`log10(iv)`, y = ~`log(ic50_is)` )
+library(ggplot2)
+library(plotly)
+library(readr)
+akt1 = read_tsv("aktgraph2.txt")
+mps1 = read_tsv("mps1graph2.txt")
+plotly::plot_ly(data = akt1, type = "scatter", color = ~type, x = ~`log10(iv)`, y = ~`log(ic50_is)` )
+pal <- c("red", "blue", "green", "cyan", "antiquewhite4", "aquamarine3", "black", "brown3", "chartreuse4", "coral3", "cornflowerblue", "cyan4", "darkgoldenrod1", "darkmagenta", "darkolivegreen3", "darkorchid", "darksalmon", "darkslategray", "firebrick1", "gray56", "hotpink1", "ivory4", "lightcoral", "lightgreen")
+plotly::plot_ly(data = mps1, type = "scatter", color = ~type, colors =pal, x = ~`log10(iv)`, y = ~`log(ic50_is)` )
+library(ggplot2)
+library(plotly)
+library(readr)
+akt1 = read_tsv("aktgraph2.txt")
+pal <- c("red", "blue", "green", "cyan", "antiquewhite4", "aquamarine3", "black", "brown3", "chartreuse4", "coral3", "cornflowerblue", "cyan4", "darkgoldenrod1", "darkmagenta", "darkolivegreen3", "darkorchid", "darksalmon", "darkslategray", "firebrick1", "gray56", "hotpink1", "ivory4", "lightcoral", "lightgreen")
+plotly::plot_ly(data = akt, type = "scatter", color = ~type, colors =pal, x = ~`log10(iv)`, y = ~`log(ic50_is)` )
+library(ggplot2)
+library(plotly)
+library(readr)
+akt1 = read_tsv("aktgraph2.txt")
+pal <- c("red", "blue", "green", "cyan", "antiquewhite4", "aquamarine3", "black", "brown3", "chartreuse4", "coral3", "cornflowerblue", "cyan4", "darkgoldenrod1", "darkmagenta", "darkolivegreen3", "darkorchid", "darksalmon", "darkslategray", "firebrick1", "gray56", "hotpink1", "ivory4", "lightcoral", "lightgreen")
+plotly::plot_ly(data = akt1, type = "scatter", color = ~type, colors =pal, x = ~`log10(iv)`, y = ~`log(ic50_is)` )
+library(ggplot2)
+library(plotly)
+library(readr)
+mps1 = read_tsv("mps1graph2.txt")
+pal <- c("red", "blue", "green", "cyan", "antiquewhite4", "aquamarine3", "black", "brown3", "chartreuse4", "coral3", "cornflowerblue", "cyan4", "darkgoldenrod1", "darkmagenta", "darkolivegreen3", "darkorchid", "darksalmon", "darkslategray", "firebrick1", "gray56", "hotpink1", "ivory4", "lightcoral", "lightgreen")
+plotly::plot_ly(data = mps1, type = "scatter", color = ~type, colors =pal, x = ~`log10(iv)`, y = ~`log(ic50_is)` )
+library(ggplot2)
+library(plotly)
+library(readr)
+mps1 = read_tsv("mps1graph2.txt")
+pal <- c("red", "blue", "green", "cyan", "antiquewhite4", "aquamarine3", "black", "brown3", "chartreuse4", "coral3", "cornflowerblue", "cyan4", "darkgoldenrod1", "darkmagenta", "darkolivegreen3", "darkorchid", "darksalmon", "darkslategray", "firebrick1", "gray56", "hotpink1", "ivory4", "lightcoral", "lightgreen")
+plotly::plot_ly(data = mps1, type = "scatter", size =20, color = ~type, colors =pal, x = ~`log10(iv)`, y = ~`log(ic50_is)` )
+library(ggplot2)
+library(plotly)
+library(readr)
+mps1 = read_tsv("mps1graph2.txt")
+pal <- c("red", "blue", "green", "cyan", "antiquewhite4", "aquamarine3", "black", "brown3", "chartreuse4", "coral3", "cornflowerblue", "cyan4", "darkgoldenrod1", "darkmagenta", "darkolivegreen3", "darkorchid", "darksalmon", "darkslategray", "firebrick1", "gray56", "hotpink1", "ivory4", "lightcoral", "lightgreen")
+plotly::plot_ly(data = mps1, type = "scatter", size =15, color = ~type, colors =pal, x = ~`log10(iv)`, y = ~`log(ic50_is)` )
+library(ggplot2)
+library(plotly)
+library(readr)
+mps1 = read_tsv("mps1graph2.txt")
+pal <- c("red", "blue", "green", "cyan", "antiquewhite4", "aquamarine3", "black", "brown3", "chartreuse4", "coral3", "cornflowerblue", "cyan4", "darkgoldenrod1", "darkmagenta", "darkolivegreen3", "darkorchid", "darksalmon", "darkslategray", "firebrick1", "gray56", "hotpink1", "ivory4", "lightcoral", "lightgreen")
+plotly::plot_ly(data = mps1, type = "scatter", size =10, color = ~type, colors =pal, x = ~`log10(iv)`, y = ~`log(ic50_is)` )
+library(ggplot2)
+library(plotly)
+library(readr)
+mps1 = read_tsv("mps1graph2.txt")
+pal <- c("red", "blue", "green", "cyan", "antiquewhite4", "aquamarine3", "black", "brown3", "chartreuse4", "coral3", "cornflowerblue", "cyan4", "darkgoldenrod1", "darkmagenta", "darkolivegreen3", "darkorchid", "darksalmon", "darkslategray", "firebrick1", "gray56", "hotpink1", "ivory4", "lightcoral", "lightgreen")
+plotly::plot_ly(data = mps1, type = "scatter", size =5, color = ~type, colors =pal, x = ~`log10(iv)`, y = ~`log(ic50_is)` )
+library(ggplot2)
+library(plotly)
+library(readr)
+mps1 = read_tsv("mps1graph2.txt")
+pal <- c("red", "blue", "green", "cyan", "antiquewhite4", "aquamarine3", "black", "brown3", "chartreuse4", "coral3", "cornflowerblue", "cyan4", "darkgoldenrod1", "darkmagenta", "darkolivegreen3", "darkorchid", "darksalmon", "darkslategray", "firebrick1", "gray56", "hotpink1", "ivory4", "lightcoral", "lightgreen")
+plotly::plot_ly(data = mps1, type = "scatter", size =2, color = ~type, colors =pal, x = ~`log10(iv)`, y = ~`log(ic50_is)` )
+library(ggplot2)
+library(plotly)
+library(readr)
+mps1 = read_tsv("mps1graph2.txt")
+pal <- c("red", "blue", "green", "cyan", "antiquewhite4", "aquamarine3", "black", "brown3", "chartreuse4", "coral3", "cornflowerblue", "cyan4", "darkgoldenrod1", "darkmagenta", "darkolivegreen3", "darkorchid", "darksalmon", "darkslategray", "firebrick1", "gray56", "hotpink1", "ivory4", "lightcoral", "lightgreen")
+plotly::plot_ly(data = mps1, type = "scatter", size = 2, color = ~type, colors =pal, x = ~`log10(iv)`, y = ~`log(ic50_is)` )
+library(ggplot2)
+library(plotly)
+library(readr)
+mps1 = read_tsv("mps1graph2.txt")
+pal <- c("red", "blue", "green", "cyan", "antiquewhite4", "aquamarine3", "black", "brown3", "chartreuse4", "coral3", "cornflowerblue", "cyan4", "darkgoldenrod1", "darkmagenta", "darkolivegreen3", "darkorchid", "darksalmon", "darkslategray", "firebrick1", "gray56", "hotpink1", "ivory4", "lightcoral", "lightgreen")
+plotly::plot_ly(data = mps1, type = "scatter", color = ~type, colors =pal, x = ~`log10(iv)`, y = ~`log(ic50_is)` )
+library(ggplot2)
+library(plotly)
+library(readr)
+mps1 = read_tsv("mps1graph2.txt")
+pal <- c("red", "blue", "green", "cyan", "antiquewhite4", "aquamarine3", "black", "brown3", "chartreuse4", "coral3", "cornflowerblue", "cyan4", "darkgoldenrod1", "darkmagenta", "darkolivegreen3", "darkorchid", "darksalmon", "darkslategray", "firebrick1", "gray56", "hotpink1", "ivory4", "lightcoral", "lightgreen")
+plotly::plot_ly(data = mps1, type = "scatter", color = ~type, colors =pal, x = ~`log10(iv)`, y = ~`log(ic50_is)`, size =7 )
+library(ggplot2)
+library(plotly)
+library(readr)
+mps1 = read_tsv("mps1graph2.txt")
+pal <- c("red", "blue", "green", "cyan", "antiquewhite4", "aquamarine3", "black", "brown3", "chartreuse4", "coral3", "cornflowerblue", "cyan4", "darkgoldenrod1", "darkmagenta", "darkolivegreen3", "darkorchid", "darksalmon", "darkslategray", "firebrick1", "gray56", "hotpink1", "ivory4", "lightcoral", "lightgreen")
+plotly::plot_ly(data = mps1, type = "scatter", color = ~type, colors =pal, x = ~`log10(iv)`, y = ~`log(ic50_is)`, size =6 )
+q()
+kiiras <- "Hello World!"
+print(kiiras)
+egy <- 1
+szaz <- 100
+egy + szaz
+# Create a sequence of numbers between -10 and 10 incrementing by 0.1.
+x <- seq(-10, 10, by = .1)
+# Choose the mean as 2.5 and standard deviation as 0.5.
+y <- dnorm(x, mean = 2.5, sd = 0.5)
+# Give the chart file a name.
+png(file = "dnorm.png")
+plot(x,y)
+# Save the file.
+dev.off()
+library("boot", lib.loc="C:/Program Files/R/R-3.4.1/library")
+library("class", lib.loc="C:/Program Files/R/R-3.4.1/library")
+library("cluster", lib.loc="C:/Program Files/R/R-3.4.1/library")
+library("codetools", lib.loc="C:/Program Files/R/R-3.4.1/library")
+library("compiler", lib.loc="C:/Program Files/R/R-3.4.1/library")
+library("datasets", lib.loc="C:/Program Files/R/R-3.4.1/library")
+library("foreign", lib.loc="C:/Program Files/R/R-3.4.1/library")
+library("graphics", lib.loc="C:/Program Files/R/R-3.4.1/library")
+library("grDevices", lib.loc="C:/Program Files/R/R-3.4.1/library")
+library("grid", lib.loc="C:/Program Files/R/R-3.4.1/library")
+library("KernSmooth", lib.loc="C:/Program Files/R/R-3.4.1/library")
+library("lattice", lib.loc="C:/Program Files/R/R-3.4.1/library")
+library("MASS", lib.loc="C:/Program Files/R/R-3.4.1/library")
+library("Matrix", lib.loc="C:/Program Files/R/R-3.4.1/library")
+library("methods", lib.loc="C:/Program Files/R/R-3.4.1/library")
+library("mgcv", lib.loc="C:/Program Files/R/R-3.4.1/library")
+library("parallel", lib.loc="C:/Program Files/R/R-3.4.1/library")
+library("nnet", lib.loc="C:/Program Files/R/R-3.4.1/library")
+library("rpart", lib.loc="C:/Program Files/R/R-3.4.1/library")
+library("spatial", lib.loc="C:/Program Files/R/R-3.4.1/library")
+library("splines", lib.loc="C:/Program Files/R/R-3.4.1/library")
+library("stats4", lib.loc="C:/Program Files/R/R-3.4.1/library")
+library("stats", lib.loc="C:/Program Files/R/R-3.4.1/library")
+library("survival", lib.loc="C:/Program Files/R/R-3.4.1/library")
+library("tcltk", lib.loc="C:/Program Files/R/R-3.4.1/library")
+library("tools", lib.loc="C:/Program Files/R/R-3.4.1/library")
+library("translations", lib.loc="C:/Program Files/R/R-3.4.1/library")
+library("utils", lib.loc="C:/Program Files/R/R-3.4.1/library")
+# Create a sequence of numbers between -10 and 10 incrementing by 0.1.
+x <- seq(-10, 10, by = .1)
+# Choose the mean as 2.5 and standard deviation as 0.5.
+y <- dnorm(x, mean = 2.5, sd = 0.5)
+# Give the chart file a name.
+png(file = "dnorm.png")
+plot(x,y)
+# Save the file.
+dev.off()
+plot(x,y)
+# Create a sequence of numbers between -10 and 10 incrementing by 0.1.
+> x <- seq(-10, 10, by = .1)
+>
+> # Choose the mean as 2.5 and standard deviation as 0.5.
+> y <- dnorm(x, mean = 2.5, sd = 0.5)
+>
+> # Give the chart file a name.
+> png(file = "dnorm.png")
+>
+> plot(x,y)
+>
+> # Save the file.
+# Create a sequence of numbers between -10 and 10 incrementing by 0.1.
+x <- seq(-10, 10, by = .1)
+# Choose the mean as 2.5 and standard deviation as 0.5.
+y <- dnorm(x, mean = 2.5, sd = 0.5)
+# Give the chart file a name.
+png(file = "dnorm.png")
+plot(x,y)
+# Save the file.
+# Create a sample of 50 numbers which are normally distributed.
+y <- rnorm(50)
+# Give the chart file a name.
+png(file = "rnorm.png")
+# Plot the histogram for this sample.
+hist(y, main = "Normal DIstribution")
+hist(y, main = "Normal DIstribution")
+hist(y, main = "Normal DIstribution")
+y <- rnorm(50)
+>
+> # Give the chart file a name.
+> png(file = "rnorm.png")
+>
+> # Plot the histogram for this sample.
+> hist(y, main = "Normal DIstribution")
+>
+> hist(y, main = "Normal DIstribution")
+> hist(y, main = "Normal DIstribution")
+# Create a sample of 50 numbers which are normally distributed.
+y <- rnorm(50)
+# Give the chart file a name.
+png(file = "rnorm.png")
+# Plot the histogram for this sample.
+hist(y, main = "Normal DIstribution")
+hist(y, main = "Normal DIstribution")
+dev.off()
+hist(y, main = "Normal DIstribution")dev.off()
+3
+a <- 3
+clear(a)
+help
+help()
+x <- 1:10
+if(x > 5) {
+x <- 0
+}
+x <- 1:10 if(x > 5) {
+x <- 0
+}
+source('~/.active-rstudio-document')
+source('~/.active-rstudio-document')
+if(x > 5) {
+x <- 0
+}
+source('~/.active-rstudio-document')
+library(datasets)
+data(iris)
+?iris
+iris
+View(iris)
+mean(Sepal.Length, Species = "virginica")
+mean(iris, Species = "virginica")
+mean(iris, Sepal.Length, Species = "virginica")
+mean(iris, Sepal.Length)
+colMeans(iris)
+set.seed(1)
+rpois(5, 2)
+set.seed(1)
+rpois(5, 2)
+set.seed(1)
+rpois(5, 2)
+set.seed(10)
+x <- rep(0:1, each = 5)
+e <- rnorm(10, 0, 20)
+y <- 0.5 + 2 * x + e
+library(datasets)
+Rprof()
+fit <- lm(y ~ x1 + x2)
+Rprof(NULL)
+makeVector <- function(x = numeric()) {
+m <- NULL
+set <- function(y) {
+x <<- y
+m <<- NULL
+}
+get <- function() x
+setmean <- function(mean) m <<- mean
+getmean <- function() m
+list(set = set, get = get,
+setmean = setmean,
+getmean = getmean)
+}
+cachemean <- function(x, ...) {
+m <- x$getmean()
+if(!is.null(m)) {
+message("getting cached data")
+return(m)
+}
+data <- x$get()
+m <- mean(data, ...)
+x$setmean(m)
+m
+}
+makeVector([1:5])
+makeVector(1:5)
+makeVector$get
+makeVector$get()
+makeVector$get(6)
+makeVector$set(1:5)
+makeVector[[1]]
+makeVector[1]
+makeVector(1:5)
+m <- x$getmean()
+z <- makeVector(1:5)
+cachemean(z)
+head(z)
+z$get()
+makeCacheMatrix <- function(x = numeric()) {
+m <- NULL
+set <- function(y) {
+x <<- y
+m <<- NULL
+}
+get <- function() x
+setmean <- function(mean) m <<- mean
+getmean <- function() m
+list(set = set, get = get,
+setmean = setmean,
+getmean = getmean)
+}
+source('C:/Users/Paurel/Desktop/inverse.R')
+cacheSolve(1:6)
+makeCacheMatrix(1:6)
+source('C:/Users/Paurel/Desktop/inverse.R')
+makeCacheMatrix(1:6)
+z <- makeCacheMatrix(1:6)
+cacheSolve(z)
+B = matrix(
++   c(2, 4, 3, 1),
++   nrow=2,
++   ncol=2)
+B = matrix( c(2, 4, 3, 1), nrow=2, ncol=2)
+B
+solve(B)
+z <- makeCacheMatrix(B)
+z
+z$get()
+z$getinv()
+cacheSolve(z)
+cacheSolve(B)
+z$get()
+cacheSolve(z)
+source('C:/Users/Paurel/Desktop/inverse.R')
+cacheSolve(z)
+z <- makeCacheMatrix(B)
+cacheSolve(z)
+source('C:/Users/Paurel/Desktop/inverse.R')
+z <- makeCacheMatrix(B)
+cacheSolve(z)
+setwd("C:/Users/Paurel/Desktop/week4")
+measures <- read.csv2("outcome-of-care-measures.csv", header = TRUE, sep = "","")
+head(measures)
+View(head(measures))
+outcome <- read.csv("outcome-of-care-measures.csv", colClasses = "character")
+View(measures)
+View(outcome)
+View(outcome)
+names(outcome)
+View(outcome)
+View(outcome)
+outcome[, 11] <- as.numeric(outcome[, 11])
+## You may get a warning about NAs being introduced; that is okay
+hist(outcome[, 11])
+outcome$Hospital.Name
+min(outcome$Hospital.30.Day.Death..Mortality..Rates.from.Heart.Attack)
+min(as.numeric(outcome$Hospital.30.Day.Death..Mortality..Rates.from.Heart.Attack)
+f
+min(as.numeric(outcome$Hospital.30.Day.Death..Mortality..Rates.from.Heart.Attack))
+outcome$Hospital.30.Day.Death..Mortality..Rates.from.Heart.Attack
+min(as.numeric(outcome$Hospital.30.Day.Death..Mortality..Rates.from.Heart.Attack), rm.na == TRUE)
+min(as.numeric(outcome$Hospital.30.Day.Death..Mortality..Rates.from.Heart.Attack),na.rm == TRUE)
+min(as.numeric(outcome$Hospital.30.Day.Death..Mortality..Rates.from.Heart.Attack),na.rm = TRUE)
+max(as.numeric(outcome$Hospital.30.Day.Death..Mortality..Rates.from.Heart.Attack),na.rm = TRUE)
+View(outcome)
+View(outcome)
+outcome <- read.csv("outcome-of-care-measures.csv", colClasses = "character")
+outcome.filtered <- outcome[outcome$State == state, ]
+maximum <- max(as.numeric(outcome.filtered$Hospital.30.Day.Death..Mortality..Rates.from.Heart.Attack),na.rm = TRUE)
+outcome.filtered[outcome.filtered$Hospital.30.Day.Death..Mortality..Rates.from.Heart.Attack = maximum, 7]
+outcome <- read.csv("outcome-of-care-measures.csv", colClasses = "character")
+outcome.filtered <- outcome[outcome$State == state, ]
+maximum <- max(as.numeric(outcome.filtered$Hospital.30.Day.Death..Mortality..Rates.from.Heart.Attack),na.rm = TRUE)
+outcome.filtered[outcome.filtered$Hospital.30.Day.Death..Mortality..Rates.from.Heart.Attack = maximum, 7]
+source('C:/Users/Paurel/Desktop/week4/best.R')
+source('C:/Users/Paurel/Desktop/week4/best.R')
+source('C:/Users/Paurel/Desktop/week4/best.R')
+best()
+names(outcome)
+source('C:/Users/Paurel/Desktop/week4/best.R')
+best("TX", "heart attack")
+source('C:/Users/Paurel/Desktop/week4/best.R')
+best("TX", "heart attack")
+state = "TX"
+outcome = "heart attack"
+outcome.table <- read.csv("outcome-of-care-measures.csv", colClasses = "character")
+outcome.filtered <- outcome[outcome$State == state, ]
+View(outcome.table)
+View(outcome.table)
+source('C:/Users/Paurel/Desktop/week4/best.R')
+outcome.table <- read.csv("outcome-of-care-measures.csv", colClasses = "character")
+outcome.filtered <- outcome[outcome.table$State == state, ]
+View(outcome.table)
+View(outcome.table)
+outcome.table <- read.csv("outcome-of-care-measures.csv", colClasses = "character")
+outcome.filtered <- outcome[,outcome.table$State == state ]
+outcome.table <- read.csv("outcome-of-care-measures.csv", colClasses = "character")
+outcome.filtered <- outcome[outcome.table$State == state ]
+outcome.table <- read.csv("outcome-of-care-measures.csv", colClasses = "character")
+outcome.filtered <- outcome[outcome.table$State == state, ]
+outcome.table <- read.csv("outcome-of-care-measures.csv", colClasses = "character")
+outcome.filtered <- outcome[outcome.table$State = state, ]
+source('C:/Users/Paurel/Desktop/week4/best.R')
+outcome.filtered <- outcome.table[outcome.table$State = state, ]
+outcome.filtered <- outcome.table[outcome.table$State == state, ]
+View(outcome.filtered)
+View(outcome.filtered)
+which.max(outcome.filtered[,outcome_num])
+outcome_num = 17
+which.max(outcome.filtered[,outcome_num])
+source('C:/Users/Paurel/Desktop/week4/best.R')
+best("TX", "heart attack")
+source('C:/Users/Paurel/Desktop/week4/best.R')
+best("TX", "heart attack")
+source('C:/Users/Paurel/Desktop/week4/best.R')
+best("TX", "heart attack")
+View(outcome.filtered)
+View(outcome.filtered)
+source('C:/Users/Paurel/Desktop/week4/best.R')
+best("TX", "heart attack")
